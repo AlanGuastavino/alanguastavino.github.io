@@ -1,0 +1,88 @@
+[
+  {
+    "marca": "Asus",
+    "modelos": [
+      {
+        "nombre": "Monitor Gamer Pro",
+        "tipoPanel": "IPS",
+        "pulgadas": [
+          "24"
+        ],
+        "frecuencia": {
+          "60Hz": 127899,
+          "75Hz": 215699,
+          "144Hz": 322650
+        }
+      },
+      {
+        "nombre": "Monitor Gamer Master",
+        "tipoPanel": "VA",
+        "pulgadas": [
+          "27"
+        ],
+        "frecuencia": {
+          "60Hz": 97899,
+          "75Hz": 208299,
+          "144Hz": 379999
+        }
+      }
+    ]
+  },
+  {
+    "marca": "Acer",
+    "modelos": [
+      {
+        "nombre": "Monitor Nitro",
+        "tipoPanel": "TN",
+        "pulgadas": [
+          "24"
+        ],
+        "frecuencia": {
+          "60Hz": 79999,
+          "75Hz": 199999,
+          "144Hz": 325435
+        }
+      },
+      {
+        "nombre": "Monitor Predator",
+        "tipoPanel": "TN",
+        "pulgadas": [
+          "27"
+        ],
+        "frecuencia": {
+          "60Hz": 85999,
+          "75Hz": 94999,
+          "144Hz": 249999
+        }
+      }
+    ]
+  },
+  {
+    "marca": "LG",
+    "modelos": [
+      {
+        "nombre": "Monitor UltraGear",
+        "tipoPanel": "IPS",
+        "pulgadas": [
+          "27"
+        ],
+        "frecuencia": {
+          "60Hz": 210000,
+          "75Hz": 250000,
+          "144Hz": 415000
+        }
+      },
+      {
+        "nombre": "Monitor Gaming Pro",
+        "tipoPanel": "TN",
+        "pulgadas": [
+          "27"
+        ],
+        "frecuencia": {
+          "60Hz": 92635,
+          "75Hz": 400000
+        }
+      }
+    ]
+  }
+]
