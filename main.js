@@ -1,11 +1,11 @@
 
+//Entrega Final - Guastavino
+
 fetch('modelosMonitores.json')
   .then(response => response.json())
   .then(data => {
-    // Estructura de datos con modelos de monitores
     const modelosMonitores = data;
 
-    // Función para cargar las opciones de un select
     function cargarOpciones(selectId, opciones) {
       const select = document.getElementById(selectId);
       select.innerHTML = '';
@@ -17,7 +17,7 @@ fetch('modelosMonitores.json')
       });
     }
 
-    // Función para calcular el costo del monitor
+ 
     function calcularCostoMonitor(marca, modelo, tipoPanel, pulgadas, frecuencia) {
       const monitor = modelosMonitores.find(
         (marcaMonitor) => marcaMonitor.marca === marca
@@ -40,7 +40,6 @@ fetch('modelosMonitores.json')
       return 0;
     }
 
-    // Variable para llevar el seguimiento del total en el carrito
     let totalCarrito = 0;
 
     window.onload = function() {
@@ -123,17 +122,17 @@ fetch('modelosMonitores.json')
               </li>
             `;
 
-            // Actualizar el total en el carrito
+           
             totalCarrito += costo;
             document.getElementById('total-carrito').textContent = `$${totalCarrito.toFixed(2)}`;
 
-            // Resto de tu código para finalizar la compra...
+           
           });
         } else {
           detallesCompraDiv.innerHTML = `
             <p>El monitor seleccionado no se encuentra disponible en nuestras opciones.</p>
           `;
-          // Limpiar carrito y otros elementos si es necesario...
+         
         }
       });
     };
