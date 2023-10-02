@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreEntrega3-Guastavino</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Work+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Work+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>MONITORES</h1>
+      <div class="simulador">
+        <div class="opciones">
+          <label for="marca">Marca:</label>
+          <select id="marca">
+            <option value="Asus">Asus</option>
+            <option value="Acer">Acer</option>
+            <option value="LG">LG</option>
+          </select>
+          <label for="modelo">Modelo:</label>
+          <select id="modelo">
+            <option value="Monitor Gamer Pro">Gamer Pro</option>
+            <option value="Monitor Gaming Master">Gaming Master</option>
+            <option value="Monitor Nitro">Nitro</option>
+            <option value="Monitor Predator">Predator</option>
+            <option value="Monitor UltraGear">UltraGear</option>
+            <option value="Monitor Gaming Pro">Gaming Pro</option>
+          </select>
+          <label for="tipoPanel">Tipo de Panel:</label>
+          <select id="tipoPanel">
+            <option value="IPS">IPS</option>
+            <option value="TN">TN</option>
+            <option value="VA">VA</option>
+          </select>
+          <label for="pulgadas">Pulgadas:</label>
+          <select id="pulgadas">
+            <option value="24">24</option>
+            <option value="27">27</option>
+          </select>
+          <label for="frecuencia">Frecuencia:</label>
+          <select id="frecuencia">
+            <option value="60Hz">60Hz</option>
+            <option value="144Hz">144Hz</option>
+          </select>
+          <button id="calcular">CALCULAR</button>
+        </div>
+        <div class="resultado">
+          <div id="detalles-compra"></div>
+          <div id="resultado"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
